@@ -110,8 +110,8 @@ Here's the permissions I set up:
 |---------------|-----------------------------------------|
 | IT            | Full Control                            |
 | Domain Admins | Full Control                            |
-| HR            | Read-Only, except for \\AD\Shared\HR    |
-| Sales         | Read-Only, except for \\AD\Shared\Sales |
+| HR            | Read-Only, except for \\\AD\Shared\HR   |
+| Sales         | Read-Only, except for \\\AD\Shared\Sales|
 
 
 <img width="652" height="442" alt="goinbacktoeditperms" src="https://github.com/user-attachments/assets/5ba79f16-4370-4096-ada2-8664b1a6d652" />
