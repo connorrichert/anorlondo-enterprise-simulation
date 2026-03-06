@@ -11,11 +11,7 @@ I created a hands-on project to strengthen my system administration and networki
 
 ## Project Overview
 
-The goal was to simulate a small enterprise environment to experiment with:  
-
-- Centralized identity management  
-- File sharing and access control  
-- Cross-platform networking  
+The goal was to simulate a small enterprise environment to experiment with centralized identity management, file sharing and access control, and cross-platform networking.
 
 ### Current Environment
 
