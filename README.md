@@ -85,7 +85,7 @@ After troubleshooting (matching NetBIOS names, verifying DNS, clearing cached se
 
 ## File Share & Access Management
 
-On **the domain controller**, I created a shared folder: C:\Shared and started creating groups and setting their permissions.
+On **the domain controller**, I created a shared folder (and subfolders for each department). I named it C:\Shared and started setting permissions.
 
 
 <img width="1182" height="856" alt="shareddriveyay" src="https://github.com/user-attachments/assets/48d6c6bf-b03f-4fff-a9fa-3353ca636d67" />
