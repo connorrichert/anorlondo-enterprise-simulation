@@ -29,7 +29,7 @@ The goal was to simulate a small enterprise environment to experiment with:
 
 
 
-<img width="1252" height="829" alt="myVMs" src="https://github.com/user-attachments/assets/bbb7e6c8-3af5-4f84-bf7b-4985d6825aac" />
+<img width="1252" height="829" alt="myVMs" src="https://github.com/user-attachments/assets/48a0b949-0f00-4137-bdcf-af03f238b365" />
 
 
 
@@ -37,7 +37,7 @@ All VMs are on an isolated host-only network to simulate a corporate LAN without
 
 
 
-<img width="1999" height="555" alt="pingeachother" src="https://github.com/user-attachments/assets/b731c038-02f4-4b34-afaf-02ed4948b2f8" />
+<img width="1999" height="555" alt="pingeachother" src="https://github.com/user-attachments/assets/9b25f84b-940f-46bc-9cfc-29d4534ef909" />
 
 
 
@@ -49,7 +49,7 @@ On **my domain controller**:
 
 
 
-<img width="1058" height="698" alt="welcometoServer" src="https://github.com/user-attachments/assets/26ff8749-5c43-4e5c-8790-2f9fa3266d45" />
+<img width="1058" height="698" alt="welcometoServer" src="https://github.com/user-attachments/assets/2a122093-69de-4f79-81c1-4b12a34b0002" />
 
 
 
@@ -59,11 +59,11 @@ Next, I created Organizational Units (OUs) for **IT**, **HR**, and **Sales** and
 
 
 
-<img width="1057" height="656" alt="addOUs" src="https://github.com/user-attachments/assets/1ec127ec-5b5a-44ed-a9fa-dd08779a51a5" />
+<img width="1057" height="656" alt="addOUs" src="https://github.com/user-attachments/assets/74df6fed-9c59-441c-b382-aaaa94986b29" />
 
 
 
-<img width="998" height="536" alt="namesofemployees" src="https://github.com/user-attachments/assets/a3a29367-62b8-4a0c-bbdf-2236261e34e6" />
+<img width="998" height="536" alt="namesofemployees" src="https://github.com/user-attachments/assets/f9a679c3-560f-4eec-8637-374d0caca976" />
 
 
 
@@ -77,7 +77,7 @@ I configured DNS to point to **DC1** and joined the domain.
 
 
 
-<img width="723" height="407" alt="verifyingdomainjoin" src="https://github.com/user-attachments/assets/23028965-a2c3-4e7d-b72e-d853494e1d8b" />
+<img width="723" height="407" alt="verifyingdomainjoin" src="https://github.com/user-attachments/assets/abd2766d-56d5-49a5-96fe-9d073bba7325" />
 
 
 
@@ -93,16 +93,16 @@ On **the domain controller**, I created a shared folder: C:\Shared and started c
 
 
 
-<img width="580" height="66" alt="permissions" src="https://github.com/user-attachments/assets/a9166038-5326-477c-b1cd-08ccdea4308b" />
+<img width="580" height="66" alt="permissions" src="https://github.com/user-attachments/assets/ecf2c114-e3c0-4956-a44b-b26eac222ffb" />
 
 
-<img width="920" height="199" alt="newgroups" src="https://github.com/user-attachments/assets/aeefaaed-ed04-4173-a11e-5369c9f0d0cf" />
+<img width="920" height="199" alt="newgroups" src="https://github.com/user-attachments/assets/7dfff920-6c7e-4e3e-912d-442b1a934f55" />
 
 
-<img width="640" height="357" alt="givethegroupspermission" src="https://github.com/user-attachments/assets/7a9db70e-b3f1-4b49-8688-f0c195523cda" />
+<img width="640" height="357" alt="givethegroupspermission" src="https://github.com/user-attachments/assets/629cdfb2-8a47-4f58-9f66-5655b62b83ef" />
 
 
-<img width="1182" height="856" alt="shareddriveyay" src="https://github.com/user-attachments/assets/44336067-97f4-447f-9150-7524a3975549" />
+<img width="1182" height="856" alt="shareddriveyay" src="https://github.com/user-attachments/assets/48d6c6bf-b03f-4fff-a9fa-3353ca636d67" />
 
 
 
