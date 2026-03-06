@@ -104,14 +104,18 @@ On **the domain controller**, I created a shared folder: C:\Shared and started c
 
 ### Access Control Setup
 
-In a real-world scenario, it would make sense to give HR and Sales write access in their folders. However, for the purposes of the lab, I wanted to try giving different permissions. So I decided on:
+Here's the permissions I set up:
 
-| Group         | SMB + NTFS Access |
-|---------------|-------------------|
-| IT            | Full Control      |
-| Domain Admins | Full Control      |
-| HR            | Read-Only         |
-| Sales         | Read-Only         |
+| Group         | SMB + NTFS Access                       |
+|---------------|-----------------------------------------|
+| IT            | Full Control                            |
+| Domain Admins | Full Control                            |
+| HR            | Read-Only, except for \\AD\Shared\HR    |
+| Sales         | Read-Only, except for \\AD\Shared\Sales |
+
+
+<img width="652" height="442" alt="goinbacktoeditperms" src="https://github.com/user-attachments/assets/5ba79f16-4370-4096-ada2-8664b1a6d652" />
+
 
 **NOTE: Windows uses two layers of permissions.**  
 
