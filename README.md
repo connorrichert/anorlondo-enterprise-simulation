@@ -51,7 +51,7 @@ On **my domain controller**:
 
 I installed Windows Server 2019 and configured a static IP. Then I set DNS to point to itself. After that, I installed **Active Directory Domain Services (ADDS)** and created the domain: `ad.anorlondo.local`.
 
-Next, I created Organizational Units (OUs) for **IT**, **HR**, and **Sales** and created users and assigned them to their respective OUs (Example: `GwynAdmin` – Domain Admin) Lastly, I verified user logins and domain functionality.
+Next, I created Organizational Units (OUs) for **IT**, **HR**, and **Sales** and created users and assigned them to their respective OUs (Example: GwynAdmin – Domain Admin) Lastly, I verified user logins and domain functionality.
 
 
 
