@@ -88,18 +88,7 @@ After troubleshooting (matching NetBIOS names, verifying DNS, clearing cached se
 On **the domain controller**, I created a shared folder: C:\Shared and started creating groups and setting their permissions.
 
 
-
-<img width="580" height="66" alt="permissions" src="https://github.com/user-attachments/assets/ecf2c114-e3c0-4956-a44b-b26eac222ffb" />
-
-
-<img width="920" height="199" alt="newgroups" src="https://github.com/user-attachments/assets/7dfff920-6c7e-4e3e-912d-442b1a934f55" />
-
-
-<img width="640" height="357" alt="givethegroupspermission" src="https://github.com/user-attachments/assets/629cdfb2-8a47-4f58-9f66-5655b62b83ef" />
-
-
 <img width="1182" height="856" alt="shareddriveyay" src="https://github.com/user-attachments/assets/48d6c6bf-b03f-4fff-a9fa-3353ca636d67" />
-
 
 
 ### Access Control Setup
@@ -115,6 +104,9 @@ Here's the permissions I set up:
 
 
 <img width="652" height="442" alt="goinbacktoeditperms" src="https://github.com/user-attachments/assets/5ba79f16-4370-4096-ada2-8664b1a6d652" />
+
+
+<img width="641" height="313" alt="sighmoreeditsforperms" src="https://github.com/user-attachments/assets/b232fef3-5b37-41e3-b15e-9f82b8057ca1" />
 
 
 **NOTE: Windows uses two layers of permissions.**  
