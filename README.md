@@ -113,13 +113,12 @@ In a real-world scenario, it would make sense to give HR and Sales write access 
 | HR            | Read-Only         |
 | Sales         | Read-Only         |
 
-**Something that had me hitting my head against my desk:**  
-Windows uses **two layers of permissions**:
+**A lesson I learned: Windows uses two layers of permissions.**  
 
 1. **SMB Share Permissions** – controls who can connect.  
 2. **NTFS File Permissions** – controls what users can do inside the folder.  
 
-Both layers must grant the intended access. Lesson learned.
+Both layers must grant the intended access. 
 
 ---
 
