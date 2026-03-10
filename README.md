@@ -41,7 +41,7 @@ All VMs are on an isolated host-only network to simulate a corporate LAN without
 
 ## Windows Server & Active Directory Setup
 
-On **my domain controller**:
+On my domain controller:
 
 
 
@@ -49,7 +49,7 @@ On **my domain controller**:
 
 
 
-I installed Windows Server 2019 and configured a static IP. Then I set DNS to point to itself. After that, I installed **Active Directory Domain Services (ADDS)** and created the domain: ad.anorlondo.local.
+I installed Windows Server 2019 and configured a static IP. Then I set DNS to point to itself. After that, I installed Active Directory Domain Services (ADDS) and created the domain: ad.anorlondo.local.
 
 Next, I created Organizational Units (OUs) for **IT**, **HR**, and **Sales** and created users and assigned them to their respective OUs (Example: GwynAdmin – Domain Admin) Lastly, I verified user logins and domain functionality.
 
@@ -67,9 +67,9 @@ Next, I created Organizational Units (OUs) for **IT**, **HR**, and **Sales** and
 
 ## Windows Client Integration
 
-On **my Windows machine**:
+On my Windows machine:
 
-I configured DNS to point to **DC1** and joined the domain.
+I configured DNS to point to DC1 and joined the domain.
 
 
 
@@ -79,13 +79,13 @@ I configured DNS to point to **DC1** and joined the domain.
 
 I initially encountered an issue with username/password errors, as well as network connectivity quirks with VirtualBox host-only adapters  
 
-After troubleshooting (matching NetBIOS names, verifying DNS, clearing cached security tokens), the client successfully joined the domain. Logging in as **GwynAdmin** confirmed that the group policies were applied.
+After troubleshooting (matching NetBIOS names, verifying DNS, clearing cached security tokens), the client successfully joined the domain. Logging in as GwynAdmin, I confirmed that the group policies were applied.
 
 ---
 
 ## File Share & Access Management
 
-On **the domain controller**, I created a shared folder (and subfolders for each department). I named it C:\Shared and started setting permissions.
+On the domain controller, I created a shared folder (and subfolders for each department). I named it C:\Shared and started setting permissions.
 
 
 <img width="1182" height="856" alt="shareddriveyay" src="https://github.com/user-attachments/assets/48d6c6bf-b03f-4fff-a9fa-3353ca636d67" />
@@ -120,9 +120,9 @@ Both layers must grant the intended access. Lesson learned (after spending too m
 
 ## Linux Server Deployment
 
-On **my linux machine**:
+On my linux machine:
 
-- Installed **Ubuntu Server** and set static IP: `192.168.56.20`  
+- Installed Ubuntu Server and set static IP: `192.168.56.20`  
 - Future projects will include:
   - Web hosting  
   - SSH administration  
