@@ -5,7 +5,7 @@ A full-stack virtual lab environment that I created in VirtualBox
 
 ## Introduction
 
-I created a hands-on project to strengthen my system administration and networking skills by building a fully virtualized enterprise lab environment while also providing myself with a foundation I can expand with future projects. 
+I created this project to strengthen my system administration and networking skills by building a fully virtualized enterprise lab environment while also providing myself with a foundation I can expand with future projects. 
 
 ---
 
