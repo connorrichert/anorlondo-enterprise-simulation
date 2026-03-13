@@ -122,7 +122,7 @@ Both layers must grant the intended access. Lesson learned (after spending too m
 
 On my linux machine:
 
-- Installed Ubuntu Server and set static IP: `192.168.56.20`  
+- Installed Ubuntu Server and set static IP: 192.168.56.20  
 - Future projects will include:
   - Web hosting  
   - SSH administration  
